@@ -1,0 +1,48 @@
+name: Scheduled job discovery
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Fetch and score without sending Slack or recording state"
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    # Four runs/day: stays well below Adzuna's documented free daily request limit.
+    # GitHub Actions schedules are best-effort and may be delayed.
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-discovery
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Discover and notify
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          MIN_SALARY_INR: "800000"
+          STRICT_SALARY_FILTER: "true"
+          MAX_EXPERIENCE_YEARS: "2"
+        run: python -m app.main ${{ inputs.dry_run && '--dry-run' || '' }}
+      - name: Persist deduplication state
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .state/job_state.json
+          git diff --cached --quiet || git commit -m "chore: update job crawl state [skip ci]"
+          git push
+
