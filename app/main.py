@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import logging
 from collections import OrderedDict
+from concurrent.futures import ThreadPoolExecutor
 
 from app.config import Settings
 from app.filtering import assess
@@ -20,9 +21,13 @@ def run(dry_run: bool = False) -> int:
         logging.error("Adzuna is disabled: configure ADZUNA_APP_ID and ADZUNA_APP_KEY.")
         return 2
     jobs = OrderedDict()
-    for query in QUERIES:
-        for job in source.discover_jobs(query):
-            jobs.setdefault(job.key, job)
+    # Adzuna's documented per-minute quota is well above this bounded fan-out;
+    # limiting it to three workers avoids one slow query blocking a whole cycle.
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        batches = executor.map(source.discover_jobs, QUERIES)
+        for batch in batches:
+            for job in batch:
+                jobs.setdefault(job.key, job)
     assessments = [assess(job, settings) for job in jobs.values()]
     qualifying = [item for item in assessments if item.qualifies]
     store = StateStore(settings.state_file)
