@@ -11,7 +11,7 @@ It intentionally does **not** scrape LinkedIn, automate a browser, use LinkedIn 
 - A free GitHub Actions schedule (every six hours) that persists non-secret de-duplication state in the repository.
 - Docker configuration for local execution.
 
-This is a best-effort scheduled worker, not an always-on server. GitHub can delay cron jobs, and the public Actions option is free only when the repository is public. A private repository may consume the account's Actions minutes. The repository state contains public job listing metadata only; do not use this deployment model if that is unacceptable.
+This is a best-effort scheduled worker, not an always-on server. GitHub can delay cron jobs. A private GitHub Free repository includes a monthly Actions allowance; this schedule should be modest, but workflows stop if the allowance is exhausted and there is no payment method. Public repositories have free standard-runner usage, but make all code and crawl state public.
 
 ## Local setup
 
@@ -23,7 +23,7 @@ Without a Slack webhook, normal mode will discover and print jobs but deliberate
 
 ## GitHub deployment: no payment method
 
-Create a **public** GitHub repository, push this project, then add these repository secrets under `Settings → Secrets and variables → Actions`:
+Create a GitHub repository (private is the safer default), push this project, then add these repository secrets under `Settings → Secrets and variables → Actions`:
 
 | Secret | Required | Meaning |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ Create a **public** GitHub repository, push this project, then add these reposit
 
 The committed workflow calls the official API every six hours, sends only newly discovered qualifying jobs, and commits `.state/job_state.json` after a successful Slack run. Use **Actions → Scheduled job discovery → Run workflow** with dry-run first. Never enter any secret into a source file or commit message.
 
-If public repository visibility is not acceptable, choose a private repo and accept the applicable GitHub Actions free-plan quota, or use a different host/account. No host can honestly guarantee a free forever 24×7 service without account/service limits.
+No host can honestly guarantee a free forever 24×7 service without account/service limits. GitHub's free tier currently includes 2,000 monthly minutes for private repositories, while standard runners are free in public repositories; verify the current entitlement in GitHub before relying on it.
 
 ## Configuration
 
@@ -42,4 +42,3 @@ The defaults are India, ₹800,000/year, strict salary filtering, and up to two 
 ## Verification
 
 Run `python -m pytest -q` after installing `requirements-dev.txt`. The tests do not call live APIs.
-
