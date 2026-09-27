@@ -1,8 +1,14 @@
 {
   "jobs": {
+    "75ea882434d0e5d6d2be792c": {
+      "company": "staff hire solutions",
+      "first_seen_at": "2026-09-27T16:55:31.742930+00:00",
+      "title": "machine learning",
+      "url": "https://www.adzuna.in/details/3793256965?utm_medium=api&utm_source=7017379e"
+    },
     "ba67566d601f99cd35def731": {
       "company": "Cyberidentitysolutions",
-      "first_seen_at": "2026-09-27T11:58:12.949907+00:00",
+      "first_seen_at": "2026-09-27T16:55:31.742961+00:00",
       "title": "QA Engineer",
       "url": "https://www.adzuna.in/details/5889699575?utm_medium=api&utm_source=7017379e"
     }
