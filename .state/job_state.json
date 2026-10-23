@@ -1,28 +1,40 @@
 {
   "jobs": {
+    "085a387f7b5dbe557cf34b99": {
+      "company": "Arminus",
+      "first_seen_at": "2026-10-23T11:32:37.880548+00:00",
+      "title": "DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5938283500?utm_medium=api&utm_source=7017379e"
+    },
     "0ed674ab65af1d17b5c44a9d": {
       "company": "Potentiam",
-      "first_seen_at": "2026-10-23T04:43:23.533258+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880510+00:00",
       "title": "Machine Learning Engineer",
       "url": "https://www.adzuna.in/details/5916889704?utm_medium=api&utm_source=7017379e"
     },
     "15d44bda80a8bd610bee955e": {
       "company": "Acme Services Private Limited",
-      "first_seen_at": "2026-10-23T04:43:23.533237+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880485+00:00",
       "title": "Data Analyst",
       "url": "https://www.adzuna.in/details/5929351063?utm_medium=api&utm_source=7017379e"
     },
     "165a0a35dcdccd51ed642fa8": {
       "company": "Turing",
-      "first_seen_at": "2026-10-23T04:43:23.533273+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880525+00:00",
       "title": "Machine Learning Scientist",
       "url": "https://www.adzuna.in/details/1864247245?utm_medium=api&utm_source=7017379e"
     },
     "16bbfe0749f1dbc6713d177d": {
       "company": "BigRio",
-      "first_seen_at": "2026-10-23T04:43:23.533302+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880562+00:00",
       "title": "QA Engineer",
       "url": "https://www.adzuna.in/details/5314053875?utm_medium=api&utm_source=7017379e"
+    },
+    "22b849486536ac2eb5c37e5b": {
+      "company": "Trigent Software Private Limited",
+      "first_seen_at": "2026-10-23T11:32:37.880550+00:00",
+      "title": "Devops Engineer",
+      "url": "https://www.adzuna.in/details/5938283448?utm_medium=api&utm_source=7017379e"
     },
     "232d2ab5738c5afbcd455979": {
       "company": "Acme Services Private Limited",
@@ -32,13 +44,13 @@
     },
     "2928fc4cca96174d9a14e79d": {
       "company": "RECEX",
-      "first_seen_at": "2026-10-23T04:43:23.533246+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880497+00:00",
       "title": "Data analyst",
       "url": "https://www.adzuna.in/details/5728436260?utm_medium=api&utm_source=7017379e"
     },
     "2b4f67aa06a4e24e795f71a7": {
       "company": "Buddy4Study",
-      "first_seen_at": "2026-10-23T04:43:23.533311+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880572+00:00",
       "title": "Business Developer",
       "url": "https://www.adzuna.in/details/1155089361?utm_medium=api&utm_source=7017379e"
     },
@@ -62,19 +74,19 @@
     },
     "3e2a7374419bff5b924f0d68": {
       "company": "Trigent Software Private Limited",
-      "first_seen_at": "2026-10-23T04:43:23.533294+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880553+00:00",
       "title": "- Devops Engineer",
       "url": "https://www.adzuna.in/details/5936964349?utm_medium=api&utm_source=7017379e"
     },
     "4612a766add6256e5d92f98d": {
       "company": "InFoCusp",
-      "first_seen_at": "2026-10-23T04:43:23.533270+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880522+00:00",
       "title": "Machine Learning Engineer",
       "url": "https://www.adzuna.in/details/3332673255?utm_medium=api&utm_source=7017379e"
     },
     "50500928aa7575610c1192d5": {
       "company": "Multi Recruit",
-      "first_seen_at": "2026-10-23T04:43:23.533305+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880565+00:00",
       "title": "QA Engineer",
       "url": "https://www.adzuna.in/details/2398472072?utm_medium=api&utm_source=7017379e"
     },
@@ -86,7 +98,7 @@
     },
     "5b371169caf41abd6e328fb7": {
       "company": "SmartJoules",
-      "first_seen_at": "2026-10-23T04:43:23.533276+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880529+00:00",
       "title": "Machine Learning Engineer",
       "url": "https://www.adzuna.in/details/1844548865?utm_medium=api&utm_source=7017379e"
     },
@@ -110,7 +122,7 @@
     },
     "6a0ce521ebb437d83f54ec64": {
       "company": "Qrata",
-      "first_seen_at": "2026-10-23T04:43:23.533308+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880568+00:00",
       "title": "QA Engineer",
       "url": "https://www.adzuna.in/details/4514376284?utm_medium=api&utm_source=7017379e"
     },
@@ -122,7 +134,7 @@
     },
     "73a788686ebe46e2af707cdc": {
       "company": "Trigent Software Private Limited",
-      "first_seen_at": "2026-10-23T04:43:23.533291+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880545+00:00",
       "title": "Devops Engineer -",
       "url": "https://www.adzuna.in/details/5936964347?utm_medium=api&utm_source=7017379e"
     },
@@ -134,7 +146,7 @@
     },
     "75ea882434d0e5d6d2be792c": {
       "company": "staff hire solutions",
-      "first_seen_at": "2026-10-23T04:43:23.533249+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880500+00:00",
       "title": "machine learning",
       "url": "https://www.adzuna.in/details/3793256965?utm_medium=api&utm_source=7017379e"
     },
@@ -176,19 +188,19 @@
     },
     "96e9790fd72c72adf8bb2329": {
       "company": "Carsome",
-      "first_seen_at": "2026-10-23T04:43:23.533279+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880532+00:00",
       "title": "Machine Learning Engineer",
       "url": "https://www.adzuna.in/details/3038221909?utm_medium=api&utm_source=7017379e"
     },
     "a296cc0b0a2cf2764f45230c": {
       "company": "Qrata",
-      "first_seen_at": "2026-10-23T04:43:23.533252+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880504+00:00",
       "title": "Machine Learning Engineer",
       "url": "https://www.adzuna.in/details/4514376236?utm_medium=api&utm_source=7017379e"
     },
     "a3179ec0364409e33faa3cc3": {
       "company": "Dukaan",
-      "first_seen_at": "2026-10-23T04:43:23.533296+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880556+00:00",
       "title": "QA Engineer",
       "url": "https://www.adzuna.in/details/5451110720?utm_medium=api&utm_source=7017379e"
     },
@@ -200,25 +212,25 @@
     },
     "a763702ac2d4204d02447f15": {
       "company": "Qrata",
-      "first_seen_at": "2026-10-23T04:43:23.533240+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880489+00:00",
       "title": "Data Analyst",
       "url": "https://www.adzuna.in/details/4514376622?utm_medium=api&utm_source=7017379e"
     },
     "a862733159dccefeebe13164": {
       "company": "Phenom People",
-      "first_seen_at": "2026-10-23T04:43:23.533282+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880535+00:00",
       "title": "Machine Learning Engineer",
       "url": "https://www.adzuna.in/details/5916908986?utm_medium=api&utm_source=7017379e"
     },
     "a9875cf2ff02d928deea6e77": {
       "company": "Vector Labs Tech",
-      "first_seen_at": "2026-10-23T04:43:23.533264+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880516+00:00",
       "title": "Machine Learning Engineer",
       "url": "https://www.adzuna.in/details/5918845469?utm_medium=api&utm_source=7017379e"
     },
     "b221f04477c0b4bc6ad1803a": {
       "company": "Edu Angels India Private Limited",
-      "first_seen_at": "2026-10-23T04:43:23.533261+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880513+00:00",
       "title": "Machine Learning Engineer",
       "url": "https://www.adzuna.in/details/4596884479?utm_medium=api&utm_source=7017379e"
     },
@@ -230,7 +242,7 @@
     },
     "b933a79df6d98f9bb3c9cb36": {
       "company": "HyperWorks Imaging Pvt Ltd",
-      "first_seen_at": "2026-10-23T04:43:23.533285+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880538+00:00",
       "title": "Machine Learning Developer",
       "url": "https://www.adzuna.in/details/5727804444?utm_medium=api&utm_source=7017379e"
     },
@@ -254,31 +266,31 @@
     },
     "be04fd17ae86c2ce67bdb18b": {
       "company": "DeepAffects",
-      "first_seen_at": "2026-10-23T04:43:23.533267+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880519+00:00",
       "title": "Machine Learning Engineer",
       "url": "https://www.adzuna.in/details/1398819281?utm_medium=api&utm_source=7017379e"
     },
     "d1aaa2f7ab8598b2f6f5eabc": {
       "company": "Qrata",
-      "first_seen_at": "2026-10-23T04:43:23.533243+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880493+00:00",
       "title": "Data Analyst",
       "url": "https://www.adzuna.in/details/4514376189?utm_medium=api&utm_source=7017379e"
     },
     "d6f290cc6098d39782d905df": {
       "company": "Chariot Tech",
-      "first_seen_at": "2026-10-23T04:43:23.533255+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880507+00:00",
       "title": "Machine learning Developer",
       "url": "https://www.adzuna.in/details/1171507907?utm_medium=api&utm_source=7017379e"
     },
     "d961d918cfa5079e8db1e453": {
       "company": "anzy global",
-      "first_seen_at": "2026-10-23T04:43:23.533288+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880542+00:00",
       "title": "DevOps",
       "url": "https://www.adzuna.in/details/5923224721?utm_medium=api&utm_source=7017379e"
     },
     "dbeecee0b2fd8eeca35450e4": {
       "company": "Acme Services Private Limited",
-      "first_seen_at": "2026-10-23T04:43:23.533206+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880446+00:00",
       "title": "Software Engineer",
       "url": "https://www.adzuna.in/details/5938283390?utm_medium=api&utm_source=7017379e"
     },
@@ -308,7 +320,7 @@
     },
     "f1688c7c3de27be0184c0dff": {
       "company": "Dori AI",
-      "first_seen_at": "2026-10-23T04:43:23.533233+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880481+00:00",
       "title": "Software Engineer",
       "url": "https://www.adzuna.in/details/3104612699?utm_medium=api&utm_source=7017379e"
     },
@@ -320,13 +332,13 @@
     },
     "fc905433da819a766081ef85": {
       "company": "Swissclear",
-      "first_seen_at": "2026-10-23T04:43:23.533299+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880559+00:00",
       "title": "QA Engineer",
       "url": "https://www.adzuna.in/details/5101826800?utm_medium=api&utm_source=7017379e"
     },
     "fea17861111024af02f1a828": {
       "company": "Fliplearn Education",
-      "first_seen_at": "2026-10-23T04:43:23.533227+00:00",
+      "first_seen_at": "2026-10-23T11:32:37.880476+00:00",
       "title": "Software Engineer/Sr Software Engineer",
       "url": "https://www.adzuna.in/details/3332673312?utm_medium=api&utm_source=7017379e"
     },
